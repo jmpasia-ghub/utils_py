@@ -1,3 +1,22 @@
+"""
+INSTRUCTIONS TO RUN THIS SCRIPT:
+
+1. INSTALL DEPENDENCIES:
+   Open your terminal/command prompt and run:
+   pip install PyPDF2
+
+2. SETUP FOLDERS:
+   - Create a folder named 'input' in the same directory as this script.
+   - Place the PDF files you want to merge inside that 'input' folder.
+
+3. RUN THE SCRIPT:
+   Open your terminal in this folder and run the command:
+   python merge_pdf.py file1.pdf file2.pdf
+
+   (Replace 'file1.pdf' and 'file2.pdf' with the actual names of your files).
+   The merged file will appear in a new 'output' folder.
+"""
+
 import sys
 try:
     from PyPDF2 import PdfMerger
