@@ -10,8 +10,8 @@ INSTRUCTIONS TO RUN THIS SCRIPT:
    - Place the PDF files you want to merge inside that 'input' folder.
 
 3. RUN THE SCRIPT:
-   Open your terminal in this folder and run the command:
-   python merge_pdf.py file1.pdf file2.pdf
+   Open your terminal in the folder where the python file is saved. Run the command:
+   python merge_pdf_files.py file1.pdf file2.pdf
 
    (Replace 'file1.pdf' and 'file2.pdf' with the actual names of your files).
    The merged file will appear in a new 'output' folder.
